@@ -1,0 +1,181 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family:sans-serif;
+    color: #222222;
+}
+/*comienza la clase*/
+
+.btn-rojo{
+    text-decoration: none;
+    color:white;
+    font-size: 0.8rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: rgb(113, 119, 25);
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    display: inline-block;
+    
+    /*innecesario*/
+
+    align-self: center;
+}
+.frase {
+    text-align: center;
+}
+
+/*termina la clase*/
+
+/*comienza primera seccion*/
+
+#primera-seccion{
+    
+    background: linear-gradient(rgba(68, 13, 13, 0.35), rgba(58, 2, 2, 0.446)), url(https://aventuravertical.com/wp-content/uploads/2019/12/monta%C3%B1as-de-mexico.jpg) no-repeat center/cover;
+background-attachment: fixed;
+height: 100vh;
+color: white;
+}
+#barra-navegacion{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#logo{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-stretch: wider;
+}
+#cosas-navegacion {
+    text-align: right;
+}
+
+nav > a {
+    text-align: right;
+    text-decoration:none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+nav > a:hover {
+    color:rgb(113, 119, 25);
+}
+
+#primera-seccion-contenido{
+    margin-top:  8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#primera-seccion-contenido > p {
+  text-transform:capitalize;
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+#primera-seccion-contenido > hr {
+   width: 4.5rem;
+    border-color: rgb(94, 99, 33) ;
+}
+
+#primera-seccion-contenido > h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+} 
+/*termina primera seccion*/ 
+
+/*segunda seccion empieza*/
+
+#segunda-seccion{
+    background-color: rgba(167, 184, 18, 0.788);
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+/*segunda seccion termina*/
+
+/*empieza tercera seccion*/
+
+#tercera-seccion {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#titulo {
+    margin-bottom: 2rem;
+}
+
+#titulo >h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+
+#titulo >hr {
+    width: 4.5rem;
+    border-color:rgb(94, 99, 33) ;
+}
+
+#contenedor-tercera-seccion {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.img-tercera {
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+
+.img-tercera >h6 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.img-tercera >p { 
+    margin-bottom: 2rem;
+
+}
+
+.img-tercera >img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
